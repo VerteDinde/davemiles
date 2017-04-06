@@ -1,6 +1,8 @@
 /*----------------
 Base
 ----------------*/
+@import url('https://fonts.googleapis.com/css?family=Dosis|Palanquin+Dark');
+
 body {
   background-image: url('../img/dave.jpg');
   background-size: 100%;
@@ -8,12 +10,19 @@ body {
   background-attachment: fixed;
 }
 
-h1 {
+h1, {
   color: white;
+  font-family: 'Dosis';
+}
+
+h2, h3 {
+  color: black;
+  font-family: 'Dosis';
 }
 
 p {
   color: lightblue;
+  font-family: 'Dosis';
 }
 
 main {
