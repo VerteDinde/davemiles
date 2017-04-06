@@ -1,0 +1,36 @@
+/*----------------
+Base
+----------------*/
+body {
+  background-image: url('../img/dave.jpg');
+  background-size: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-attachment: fixed;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: lightblue;
+}
+
+main {
+  background-color: white;
+  text-align: center;
+  margin: 10%;
+  padding: 5%;
+}
+
+/*----------------
+Layout
+----------------*/
+button {
+  color: white;
+  background-color: lightblue;
+}
+
+/*----------------
+Modules
+----------------*/
