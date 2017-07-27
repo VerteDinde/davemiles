@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './styles/App.css';
 
 class App extends Component {
 
@@ -22,9 +22,23 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>{this.state.message}</h2>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <header>
+          <h1>Dave Miles</h1>
+          <section class="nav">
+            <p>About Dave Miles</p>
+          </section>
+        </header>
+          <main>
+            <h2>How many miles are you actually hiking today?</h2>
+            <h3>Dave Says:</h3>
+            <form action="#" onsubmit="">
+              <input type="text" />
+            </form>
+            <div id="feedback"></div>
+        </main>
+        <footer>
+          <p>Dave Rappoccio | 2017</p>
+        </footer>
       </div>
     );
   }
