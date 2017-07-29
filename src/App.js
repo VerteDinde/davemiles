@@ -15,6 +15,10 @@ class App extends Component {
     .then(json => this.setState({ message: json }));
   }
 
+  const onSubmit= () => {
+    //
+  }
+
   render() {
     return (
       <div className="App">
@@ -24,14 +28,14 @@ class App extends Component {
         </div>
         <header>
           <h1>Dave Miles</h1>
-          <section class="nav">
+          <section className="nav">
             <p>About Dave Miles</p>
           </section>
         </header>
           <main>
             <h2>How many miles are you actually hiking today?</h2>
             <h3>Dave Says:</h3>
-            <form action="#" onsubmit="">
+            <form action="#" onSubmit="">
               <input type="text" />
             </form>
             <div id="feedback"></div>
