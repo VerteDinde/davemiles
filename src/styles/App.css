@@ -8,9 +8,12 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
   color: white;
 }
 
@@ -28,11 +31,19 @@ Base
 ----------------*/
 @import url('https://fonts.googleapis.com/css?family=Dosis|Palanquin+Dark');
 
-body {
+ body {
   background-image: url('../img/dave.jpg');
   background-size: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   background-attachment: fixed;
+} 
+
+/* TODO: This does nothing. Fix. */
+header img {
+  height: 40vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1, {
