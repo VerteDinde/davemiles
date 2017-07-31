@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Miles from './components/Miles';
 import logo from './logo.svg';
 import './styles/App.css';
 
@@ -32,14 +33,7 @@ class App extends Component {
             <p>About Dave Miles</p>
           </section>
         </header>
-          <main>
-            <h2>How many miles are you actually hiking today?</h2>
-            <h3>Dave Says:</h3>
-            <form action="#" onSubmit="">
-              <input type="text" />
-            </form>
-            <div id="feedback"></div>
-        </main>
+        <Miles />
         <footer>
           <p>Dave Rappoccio | 2017</p>
         </footer>
