@@ -18,7 +18,7 @@ app.use(express.static(path.join(__dirname, 'build')));
 
 app.use('/api', index);
 app.get('*', (req, res) => {
-    res.sendFile('build/index.html', {root: root});
+  res.sendFile('build/index.html', { root: root });
 });
 
 module.exports = app;

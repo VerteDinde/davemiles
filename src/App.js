@@ -7,7 +7,7 @@ class App extends Component {
 
   constructor() {
     super();
-    this.state = { message: '' }
+    this.state = { message: '' };
   }
 
   componentDidMount() {
@@ -16,7 +16,7 @@ class App extends Component {
     .then(json => this.setState({ message: json }));
   }
 
-  const onSubmit= () => {
+  onSubmit = () => {
     //TODO: Refine query
   }
 
